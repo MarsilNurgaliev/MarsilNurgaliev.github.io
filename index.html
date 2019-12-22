@@ -13,11 +13,12 @@
 		<!-- Иконка, которая будет на вкладке в браузере -->
 		<link rel="icon" href="/favicon.ico">
 		<!-- Заголовок на вкладке в браузере -->
-		<title></title>
+		<title>Артем Исламов-создание сайтов</title>
 
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">	
 </head>
 
 <body>
@@ -27,14 +28,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img class="header-img" src="img/2-layers.png" alt="Монитор">
+					<img class="header-img wow fadeInLeftBig" src="img/2-layers.png" alt="Монитор">
 				</div>
 				<div class="col-lg-5">
-					<p class="header-pretitle">Веб-разработчик</p>
-					<h1 class="header-title">Артем Исламов</h1>
-					<p class="header-subtitle">Верстка на HTML/CSS <br>Разработка сайтов под ключ</p>
-					<div class="header-button-block">
-					<a href="https://vk.me/aislam23" class="header-button">Связаться</a>
+					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Артем Исламов</h1>
+					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br>Разработка сайтов под ключ</p>
+					<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
+					<a href="https://vk.me/aislam23" class="header-button woww fadeInRightBig">Связаться</a>
 					<small>*Это бесплатно</small>
 				</div>
 			</div>
@@ -42,7 +43,7 @@
 	</header>
 	<section class="portfolio">
 		<div class="container">
-			<div class="portfolio-block">
+			<div class="portfolio-block wow FadeIn">
 				<h2 class="portfolio-title">Портфолио</h2>
 				<p class="portfolio-subtitle">Мои работы</p>
 				<div class="row">
@@ -80,10 +81,10 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подпишитесь:</p>
-						<a href="https://fb.com/aislam23"><img src="img/facebook-logo-button.png" alt="Фейсбук"></a>
-						<a href="https://t.me/aislam23"><img src="img/telegram-symbol.png" alt="Телеграм"></a>
-						<a href="https://youtube.com/c/GloAcademyChannel"><img src="img/youtube-symbol.png" alt="Ютуб"></a>
-						<a href="https://vk.com/aislam23"><img src="img/vk-social-logotype.png" alt="Вконтакте"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.1s" href="https://fb.com/aislam23"><img src="img/facebook-logo-button.png" alt="Фейсбук"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.2s" href="https://t.me/aislam23"><img src="img/telegram-symbol.png" alt="Телеграм"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.3s" href="https://youtube.com/c/GloAcademyChannel"><img src="img/youtube-symbol.png" alt="Ютуб"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.4s" href="https://vk.com/aislam23"><img src="img/vk-social-logotype.png" alt="Вконтакте"></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -98,6 +99,11 @@
 		</div>
 	</footer>
 </main>
+
+<script src="Js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
 
 </body>
 </html>

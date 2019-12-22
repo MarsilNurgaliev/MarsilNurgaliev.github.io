@@ -8,6 +8,7 @@ body {
 }
 img {
     min-width: 100%;
+
 }
 main{
     background-color: #dddddd;
@@ -32,7 +33,7 @@ header {
 }
 .header-button {
     display: inline-block;
-    text-decoration: none;
+    text-decoration:    ;
     box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
     border-radius: 50px;
     background-color: #ffffff;
@@ -44,6 +45,10 @@ header {
     padding-right: 55px;
     padding-bottom: 17px;
     margin-top: 33px;
+    transition: 0.2s;
+}
+.header-button:hover {
+    box-shadow: none;
 }
 header small {
     font-size: 12px;
@@ -138,12 +143,18 @@ footer {
 }
 .footer-button {
     display: inline-block;
+    text-decoration: none;
     border: 1px solid #ffffff;
     background-color: transparent;
     color: #ffffff;
     font-size: 18px;
     border-radius: 24px;
     padding: 12px 40px;
+    transition: 0.2s;
+}
+.footer-button:hover {
+    background-color: #ffffff;
+    color: #3a7dfd ;
 }
 
 @media (max-width: 1200px) {
